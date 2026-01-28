@@ -14,12 +14,11 @@
 
     body {
   font-family: "Georgia", serif;
-  background:
+  /* Dégradé + image de fond combinés correctement */
+  background: 
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    background:
-  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-  url("https://www.hotel-dali.fr/wp-content/uploads/accueil/hotel-dali-hotel-a-30km-de-paris.webp");
-  background-position: center;
+    url("https://www.hotel-dali.fr/wp-content/uploads/accueil/hotel-dali-hotel-a-30km-de-paris.webp") no-repeat center center;
+  background-size: cover; /* pour que l'image couvre tout l'écran */
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -102,3 +101,4 @@
 
 </body>
 </html>
+
