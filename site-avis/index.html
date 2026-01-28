@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votre avis compte</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+  font-family: "Georgia", serif;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    background:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url("https://www.hotel-dali.fr/wp-content/uploads/accueil/hotel-dali-hotel-a-30km-de-paris.webp");
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+    .card {
+      background: #f6f2ea;
+      max-width: 420px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #8c7a5a;
+      margin-bottom: 12px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 17px;
+      color: #5f5f5f;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-bottom: 16px;
+      transition: transform 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.02);
+    }
+
+    .good {
+      background: #c9a14a;
+      color: #ffffff;
+    }
+
+    .bad {
+      background: #8c7a5a;
+      color: #ffffff;
+    }
+
+    .thanks {
+      font-size: 13px;
+      color: #8a8a8a;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Votre avis compte</h1>
+    <p>Prenez 30 secondes pour partager votre expérience</p>
+
+    <a href="https://www.google.com/travel/search?q=hotel%20dali%20val%20d%27europe&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C73249147%2C121509482&hl=fr-GB&gl=uk&ssta=1&ts=CAEaRwopEicyJTB4NDdlNjFkMTQwMzE5MTJiMToweGU1ZDQxZjQwZjczZjc5MjMSGhIUCgcI6g8QARgeEgcI6g8QARgfGAEyAhAA&qs=CAEyFENnc0lvX0w5dVlfb2gtcmxBUkFCOAJCCQkjeT_3QB_U5UIJCSN5P_dAH9Tl&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwiAh8Gm_a2SAxUAAAAAHQAAAAAQBA" class="btn good" target="_blank">
+      ⭐ J’ai apprécié
+    </a>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqxnI54jr3z141NnuWReD2l1o9qWMZs7GBKhagpDhMRJ30Hg/viewform?usp=header" class="btn bad" target="_blank">
+      💬 Je n’ai pas apprécié
+    </a>
+
+    <div class="thanks">Merci pour votre retour ✨</div>
+  </div>
+
+</body>
+</html>
